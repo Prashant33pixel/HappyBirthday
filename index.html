@@ -185,7 +185,10 @@ Keep being the wonderful person you are. 🌸
             $await(growAnimate());
             $await(flowAnimate());
             $await(moveAnimate());
-            textAnimate().start();
+            // Show the message area now
+document.getElementById("code").style.display = "block";
+textAnimate().start();
+
 document.getElementById("clock-box").style.display = "block";
 
 // Use your updated function.js clock
